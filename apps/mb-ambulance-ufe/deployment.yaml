@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mb-ambulance-ufe-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      pod: mb-ambulance-ufe-label
+  template:
+    metadata:
+      labels:
+        pod: mb-ambulance-ufe-label
+    spec:
+      containers:
+      - name: mb-ambulance-ufe-container
+        image: bednarmaros341/ambulance-ufe
+        imagePullPolicy: Always
+        ports:
+        - name: http
+          containerPort: 8080
+        resources:
+          requests:
+            memory: "32Mi"
+            cpu: "0.1"
+          limits:
+            memory: "320Mi"
+            cpu: "0.3"
