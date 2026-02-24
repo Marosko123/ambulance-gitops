@@ -1,0 +1,11 @@
+apiVersion: fe.milung.eu/v1
+kind: WebComponent
+metadata:
+  name: mb-ambulance-ufe
+spec:
+  module-uri: http://mb-ambulance-ufe-service.wac-hospital/build/mb-ambulance-ufe.esm.js
+  navigation:
+  - element: mb-ambulance-wl-list
+    path: mb-ambulance-wl-list
+    title: Zoznam čakárni
+    details: Spravuje zoznam čakárni pre ambulanciu
