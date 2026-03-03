@@ -6,6 +6,6 @@ spec:
   microFrontend: mb-ambulance-ufe
   element: mb-ambulance-wl-list
   displayRules:
-  - allOf:
-    - context-name: main-content
-    - path: "^(\\.?/)?mb-ambulance-wl(/.*)?$"
+    - allOf:
+        - context-name: main-content
+        - path: "^(\\.?/)?mb-ambulance-wl(/.*)?$"
