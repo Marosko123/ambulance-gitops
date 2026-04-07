@@ -9,7 +9,9 @@ commonLabels:
 
 resources:
  - ../../../apps/mb-ambulance-ufe
+ - ../../../apps/mb-ambulance-webapi
 
 
 components:
  - ../../../components/version-release
+ - https://github.com/Marosko123/ambulance-webapi//deployments/kustomize/components/mongodb

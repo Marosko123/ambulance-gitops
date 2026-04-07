@@ -4,3 +4,6 @@ images:
 - name: bednarmaros341/ambulance-ufe
   newName: bednarmaros341/ambulance-ufe
   newTag: 1.0.0
+- name: bednarmaros341/ambulance-wl-webapi
+  newName: bednarmaros341/ambulance-wl-webapi
+  newTag: 1.0.0
