@@ -3,14 +3,17 @@ kind: Kustomization
 
 namespace: wac-hospital
 
-commonLabels:
- app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: mb-ambulance-wl
+labels:
+  - pairs:
+      app.kubernetes.io/part-of: wac-hospital
+      app.kubernetes.io/name: mb-ambulance-wl
+      wac-fiit.github.io/project: mb-ambulance-wl
+    includeSelectors: true
+    includeTemplates: true
 
 resources:
  - ../../../apps/mb-ambulance-ufe
  - ../../../apps/mb-ambulance-webapi
-
 
 components:
  - ../../../components/version-release
