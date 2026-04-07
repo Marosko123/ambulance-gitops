@@ -1,0 +1,11 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: mb-ambulance-wl
+spec:
+  title: Zoznam čakajúcich mb
+  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+  authors: Maros Bednar
+  frontendRepoUrl: https://github.com/Marosko123/ambulance-ufe
+  backendRepoUrl: https://github.com/Marosko123/ambulance-webapi
+  gitopsRepoUrl: https://github.com/Marosko123/ambulance-gitops
