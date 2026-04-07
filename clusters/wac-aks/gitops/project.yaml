@@ -6,7 +6,7 @@ spec:
   title: "Zoznam čakajúcich mb"
   description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Maros Bednar"
-  azureLink: "https://mb-ambulance-h2caexdhfxgucyaq.westeurope-01.azurewebsites.net/"
+  azureLink: "https://mb-ambulance-wl-b8cfd3fggrhte4ah.germanywestcentral-01.azurewebsites.net/"
   frontendRepoUrl: "https://github.com/Marosko123/ambulance-ufe"
   backendRepoUrl: "https://github.com/Marosko123/ambulance-webapi"
   gitopsRepoUrl: "https://github.com/Marosko123/ambulance-gitops"
