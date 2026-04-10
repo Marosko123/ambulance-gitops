@@ -17,4 +17,3 @@ resources:
 
 components:
  - ../../../components/version-release
- - https://github.com/Marosko123/ambulance-webapi//deployments/kustomize/components/mongodb
