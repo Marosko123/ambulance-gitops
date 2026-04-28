@@ -3,7 +3,7 @@ kind: Project
 metadata:
   name: mb-ambulance-wl
 spec:
-  title: "Zoznam čakajúcich mb"
+  title: "Ambulance Waiting List - Maros Bednar"
   description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Maros Bednar"
   azureLink: "https://mb-ambulance-wl-b8cfd3fggrhte4ah.germanywestcentral-01.azurewebsites.net/"
